@@ -5,6 +5,15 @@
   box-sizing: border-box; /*does not include margin*/
 }
 
+#title {
+    font-family: helvetica;
+    background: #33BEBE;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    height: 100px;
+    margin-bottom: 62px;
+}
+
 .app {
   display: -webkit-flex;
   display: flex;
@@ -12,15 +21,14 @@
 
 .description {
     max-width: 705px;
-    /*color:red;*/
-    /*width: 50%;
-    height: 50%;*/
+    color: #7C8B88;
+    font-family: helvetica;
+    font-size: 22px;
 
 }
 
 .screenshot {
     max-width: 460px;
-    /*width: 50%;
-    height: 50%;*/
+    margin-right: 35px;
 
 }
